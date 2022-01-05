@@ -6,7 +6,6 @@ body {
 }
 .top {
   display: flex;
-  justify-content: center;
 }
 
 .top-width {
@@ -23,15 +22,6 @@ body {
   border-left: 4px solid red;
   border-image: linear-gradient(FF5959);
 }
-/* .top-width h1 {
-  padding-left: 170px;
-  border-left: 7px solid;
-  border-image: linear-gradient(FF5959);
-  border-image-slice: 1;
-}
-.top-width p {
-  padding-left: 170px;
-} */
 
 .text-color {
   color: #ffad5a;
@@ -50,22 +40,25 @@ body {
 }
 .flexible {
   display: flex;
-  width: 100%;
+  width: 80%;
+  margin-left: 10%;
 }
 .mission {
-  padding: 10px 40px;
   border-radius: 26px;
-  margin: 5%;
-  padding: 3%;
+  margin: 20px 10px;
+  padding: 40px 70px;
 }
 
 .mission-bg {
+  width: 20%;
   background-color: #4f9da61a;
 }
 .vision-bg {
+  width: 20%;
   background-color: #ff59591a;
 }
 .goals-bg {
+  width: 20%;
   background-color: #fff4d6;
 }
 
@@ -103,7 +96,7 @@ body {
   background-image: url("images/shapes/shape-1.png");
   background-repeat: no-repeat;
   background-position: right bottom;
-  background-size: 200px;
+  background-size: 150px;
 }
 .corona-section {
   display: flex;
@@ -118,6 +111,7 @@ body {
 }
 
 .footer-section h1 {
+  font: Lobster;
   padding-top: 44px;
   text-align: center;
 }

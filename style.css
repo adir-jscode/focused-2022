@@ -5,6 +5,8 @@ body {
   margin-right: 0;
   margin-bottom: 0;
 }
+
+/* Top section */
 .top {
   display: flex;
 }
@@ -29,6 +31,10 @@ body {
   color: #ffad5a;
 }
 
+/* top section end */
+
+/* button for all */
+
 .buttons {
   text-decoration: none;
   color: white;
@@ -36,7 +42,9 @@ body {
   border-radius: 10px;
   background-color: #ff5959;
 }
+/* button end */
 
+/* My Mission Section Start */
 .my-mission h1 {
   text-align: center;
 }
@@ -68,6 +76,10 @@ body {
   width: 30%;
 }
 
+/* My Mission Section End */
+
+/* Develop Section Start */
+
 .develop-section {
   display: flex;
   margin-top: 100px;
@@ -79,15 +91,23 @@ body {
   background-position: left;
   background-size: 200px;
 }
-.develop img {
+
+/* Develop Section End */
+
+/* Community part for Global and Develop section */
+.community img {
+  margin-bottom: 100px;
   margin-left: 10%;
   width: 75%;
 }
-.develop-text {
+.community-text {
   padding-left: 5%;
   padding-right: 9%;
   width: 100%;
 }
+/* Community part end */
+
+/* Global section start*/
 
 .global-section {
   display: flex;
@@ -98,37 +118,12 @@ body {
   background-image: url("images/shapes/shape-1.png");
   background-repeat: no-repeat;
   background-position: right bottom;
-  background-size: 150px;
-}
-.corona-section {
-  display: flex;
-  margin-top: 100px;
-  width: 100%;
-  margin-left: 30px;
-  padding: 10px 10px;
-  background-image: url("images/shapes/shape-6.png");
-  background-repeat: no-repeat;
-  background-position: left top;
-  background-size: 190px;
+  background-size: 220px;
 }
 
-.footer-section h1 {
-  font: Lobster;
-  padding-top: 44px;
-  text-align: center;
-}
+/* Global section End*/
 
-.footer-section {
-  text-align: center;
-  width: 100%;
-  background: #0b0d17;
-  height: 177px;
-  color: white;
-}
-
-.text-red {
-  color: #ff5959;
-}
+/* Covid Section Start */
 .covid-section {
   width: 100%;
   margin-top: 50px;
@@ -139,6 +134,7 @@ body {
   padding: 10px 40px;
 }
 .covid-info {
+  font-weight: 800;
   color: white;
   text-align: center;
   padding-top: 60px;
@@ -147,3 +143,24 @@ body {
   height: 700px;
   width: 100%;
 }
+/* Covid Section End */
+
+/* Footer section start */
+.footer-section {
+  text-align: center;
+  width: 100%;
+  background: #0b0d17;
+  height: 177px;
+  color: white;
+}
+
+.footer-section h1 {
+  font: Lobster;
+  padding-top: 44px;
+}
+
+.text-red {
+  color: #ff5959;
+}
+
+/* Footer Section */

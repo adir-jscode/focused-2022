@@ -3,6 +3,7 @@ body {
   overflow-x: hidden;
   margin-left: 0;
   margin-right: 0;
+  margin-bottom: 0;
 }
 .top {
   display: flex;
@@ -19,6 +20,7 @@ body {
 }
 
 .top-width h1 {
+  padding-left: 10px;
   border-left: 4px solid red;
   border-image: linear-gradient(FF5959);
 }
